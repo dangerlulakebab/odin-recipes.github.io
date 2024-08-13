@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.dishes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.dish{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.dish img {
+    width: 250px;
+    height: auto;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+    transform: scale(1);
+    transition: 0.5s ease-out;
+}
+
+a:hover {
+    box-shadow: inset;
+    transform: scale(1.3);
+}
