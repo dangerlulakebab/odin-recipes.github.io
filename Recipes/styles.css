@@ -1,0 +1,24 @@
+body {
+    padding-left: 400px;
+    padding-top: 75px;
+    width: 750px
+}
+
+img {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.step {
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+.ingridients  h1{
+    margin-left: 20px;
+} 
+
+li {
+    font-size: 20px;
+    padding-top: 10px;
+}
